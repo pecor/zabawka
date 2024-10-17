@@ -1,5 +1,33 @@
 .content-container{
-    height: 100vh;
-    width: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 30vh;
+    min-width: 20vw; /* Minimum width before wrapping */
+    max-width: calc(70% - 20px);
+    min-height: 20vh;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 40px;
     padding: 20px;
+}
+
+.text-box h1 {
+    font-size: 2em;
+    color: red;
+
+}
+
+.text-box p {
+    font-size: 1.5em;
+    color: white;
 }

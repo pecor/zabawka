@@ -15,6 +15,9 @@
     font-weight: bold;
     color: white;
 }
+.navbar-logo:hover {
+    color: #58a6ff;
+}
 
 .navbar-links {
     list-style-type: none;
